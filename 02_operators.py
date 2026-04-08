@@ -39,4 +39,15 @@ print(3 > 4 or "hola" > "python") #false o false = false, true y false = true
 print(3 < 4 and "hola" < "python")#true y true= true - iguales- igual
 print(3 < 4 or "hola" < "python")#false y true= true - diferente true
 print(not(3 > 4)) #negar toda la condicion, si es false pone true y al contrario
+base_triangulo = int(input("Ingrese la base del triangulo: "))
+altura_triangulo = int(input("Ingrese la altura del triangulo: "))
+area_triangulo = (base_triangulo * altura_triangulo / 2)
+print("El area del triangulo es: ", area_triangulo)
+
+lado_a = int(input("Ingrese el valor del lado a: "))
+lado_b = int(input("Ingrese el valor de lado b: "))
+lado_c = int(input("Ingrese el valor del lado c: "))
+perimetro = (lado_a + lado_b + lado_c)
+print("El perimetro es de: ", perimetro)
+
 
